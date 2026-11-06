@@ -1,0 +1,53 @@
+# Data and results never go in git. Each folder keeps only its README.
+data/*
+!data/README.md
+results/*
+!results/README.md
+
+# Data file types, in case one gets saved somewhere else by accident.
+# If a small file really must be committed, ask Ethan first and use `git add -f`.
+*.parquet
+*.csv
+*.feather
+*.h5
+*.hdf5
+*.zip
+*.gz
+*.npz
+*.npy
+*.pkl
+
+# Model checkpoints and experiment tracking
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+wandb/
+lightning_logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

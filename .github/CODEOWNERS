@@ -1,0 +1,13 @@
+# Maps each folder to its owners, so GitHub requests their review automatically.
+# Fill in GitHub usernames once roles are confirmed, then uncomment the lines.
+# Later lines take precedence over earlier ones.
+#
+# *                           @ethan-username
+# /src/dhedge/marketdata/     @dev1-username @dev2-username
+# /src/dhedge/simulators/     @dev1-username @dev2-username
+# /src/dhedge/gate/           @dev1-username @dev2-username
+# /src/dhedge/agents/         @dev3-username @ethan-username
+# /src/dhedge/evaluation/     @ethan-username @dev3-username
+# /src/dhedge/baselines/      @ethan-username @dev3-username
+# /src/dhedge/theory/         @ethan-username
+# /docs/                      @ethan-username
